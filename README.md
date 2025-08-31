@@ -63,6 +63,7 @@ Rezk
 │   ├── Properties/          # App settings & metadata
 │   └── Migrations/          # Database migrations
 │
+│── UI/UX.md/                # Figma Link
 │── README.md                # Project overview
 ```
 
@@ -74,7 +75,7 @@ Rezk
 
 * React.js + TypeScript
 * Axios for API requests
-* Bootstrap / Tailwind CSS
+* Tailwind CSS
 
 **Backend**
 
