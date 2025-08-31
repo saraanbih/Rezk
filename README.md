@@ -151,11 +151,6 @@ npm start
 * Post new job opportunities.
 * Manage and review applicants.
 
-**Admin Management**
-
-* Oversee users, jobs, and applications.
-* Handle reports and generate statistics.
-
 **Job Search**
 
 * Browse jobs by category, location, and type.
