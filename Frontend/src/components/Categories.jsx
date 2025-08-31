@@ -39,14 +39,14 @@ const Categories = () => {
             <h3 className = "font-medium text-[40px] text-[#2D9CDB]">فئات شائعه</h3>
             {chunkedCategories.map((chunk,chunkIndex) => {
                     return(
-                        <div className="grid grid-cols-4 gap-[40px] mt-[58px]" key = {chunkIndex}>
+                        <div style={{display:"flex",flexWrap:"wrap",alignItems:"center", justifyContent:"center"}} className="grid grid-cols-4 gap-[40px] mt-[58px]" key = {chunkIndex}>
                             {chunk.map((item,index) => {
                                 return (
                                     <div key={index} className="flex flex-col items-center gap-[16px] size-[300px] cursor-pointer hover:scale-110 transition duration-200">
                                         <div className = "bg-[#EFEDED] flex items-center justify-center rounded-[20px] w-full !h-[250px]">
                                             <img src = {item.imageUrl} className = "!size-[130px]"/>
                                         </div>
-                                        <Link to ={`/category/${item.id}`} state={{ categoryName: item.name }}  className = "text-center font-bold text-[32px] px-5 h-[50px]">
+                                        <Link to ={`/category/${item.id}`} state={{ categoryName: item.name }}  className = "text-center font-bold text-[30px] px-5 h-[50px]">
                                             {item.name}
                                         </Link>
                                     </div>
