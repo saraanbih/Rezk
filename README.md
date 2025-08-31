@@ -115,7 +115,7 @@ Rezk
 ### Clone the repository
 
 ```bash
-git clone https://github.com/your-saraanbih/CIS-Hackathon.git
+git clone https://github.com/your-saraanbih/Rezk.git
 ```
 
 ### Setup Backend (ASP.NET Core)
