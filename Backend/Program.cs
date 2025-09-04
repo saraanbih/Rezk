@@ -22,7 +22,7 @@ namespace Rezk_Proj
                     policy =>
                     {
                         policy.WithOrigins(
-                            "http://localhost:5173"        
+                            "https://cishackathon-229b2.web.app"
                         )
                         .AllowAnyHeader()
                         .AllowAnyMethod()
